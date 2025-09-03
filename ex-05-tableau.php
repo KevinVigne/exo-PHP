@@ -40,7 +40,9 @@
             "chat" => "miaulement",
             "canard" => "cancane"
         ];
-        foreach
+        foreach($animaux as $id => $bruit){
+            echo "<p>l'animal $id fais $bruit</p>";
+        };
     ?>
 
 </body>
